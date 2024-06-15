@@ -1,0 +1,93 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #2C3E50; /* Change as per your theme */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin: 15px 0;
+}
+
+.sidebar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.sidebar-menu a:hover {
+    background-color: #34495E; /* Change as per your theme */
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Main content styles */
+.content {
+    margin-left: 260px; /* Adjust to the width of the sidebar */
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+/* Top navigation styles */
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+.top-nav a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
